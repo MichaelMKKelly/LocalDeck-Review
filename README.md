@@ -37,6 +37,7 @@ TODO
 If the PCB is removed from the housing by taking out the 4 screws and the back side is made visable we get to see the ESP32 itself and a couple of hidden extra's on the board.
 
 SW1 - this is labled "Boot" and is a standard ESP32 debug board switch
+
 J1 - unpopulated 2 pin header for 5v and GND
 
 Above I mentioned that there are 2 officially supported ways to power the device however with J1 it would be very easy to add your own 5v power supply to the device and soldering directly to the throughhole connections.
