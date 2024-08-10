@@ -71,6 +71,8 @@ A relay addon would be fantastic as when mounting on a standard backbox it can r
 
 the case tries to do everything. realistically perhaps changing the case to instead of directly keyholing onto the screws from a backbox it has other mounting connections and a seperate optional backplate product that you can mount on the wall over a backbox (or anywhere else) and then the main case hooks into it. this means if it gets pushed off then at most 5v DC would be exposed. this backplate could have a relay variant if addons could be added as suggested above
 
+The 4 square holes on the back of the case imply that using a hook mounting system may have already been considered?
+
 
 ## My thoughts for using in a project
 
