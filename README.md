@@ -49,7 +49,7 @@ If you have a working knowledge of home assistant and ESPHome devices then you w
 
 ## Problems
 
-When pressing a switch some LEDS flicker. This appears to be a known problem and is being looked at for future versions of the PCB
+When pressing a switch some LED's flicker. This appears to be a known problem and is being looked at for future versions of the PCB
 
 The side USB port when plugged in through the case doesnt allow for full insertion of a usb-c cable as the casing of the plug hits the case before it bottoms out. it plugs in and works but as a result of it not going all the back to the back of the connector it is a little loose and if getting moved on a desk is likely to become disconnected. I have tried a few USB-C cables and they all have the same issue so its not a connector tolorence issue however it could be a case toloraence issue with my specific case.
 
