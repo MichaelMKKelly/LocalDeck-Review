@@ -4,6 +4,12 @@ A review of the new localdeck from localbytes
 
 This can also serve as feedback for localbytes for possible future verions/products
 
+Disclaimer:
+
+This review is one mans opinion but I can only offer my side
+
+Parts of this review may come across negative howver in general I do like the device
+
 ## Who is LocalBtes and why did I buy?
 
 Theey are a small UK company with a small range of products that I ran into whilst looking at various smart plugs and they seemed great value for money so decided to give them a go and when The products turned out to be of a reasnable quality I decided to jump in to their new localdeck product as I have some half ideas on things i might want to do with it.
@@ -37,6 +43,8 @@ I will probably try it out at some point but I have resisted so far. I am not a 
 I am not the only one that wants to go another way. there has already been a handful of people proposing alternate firmwares and configuration options to remove the need for the addon.
 
 it does work out the box with esphome integration though and automations triggered by button presses are easy enough to set up without making it too complicated.
+
+Perhaps it is not fair to voice an opinion when not using it in the "intended" way?
 
 ## Hidden Features
 
@@ -129,6 +137,16 @@ potetnitally with a 45 degree adapter to make button pressing easier.
 include a 5v power supply in the backbox to power the unit.
 add a relay module to replace the switching that the light switch did before being replaced.
 if adding the relay module control directly to the onboard esp32 then hardcode one of the keys to switch it so that it works even
+
+## Conclusion and final thoughts
+
+Is it a good device? I would have to say: yes
+
+does it have problems? Again I have to say: yes
+
+getting the first run of hardware for a device naturally comes with some risks but if you are someone that tinkers with the hardware and can adapt to the situation then it like other things from the LocalBytes lineup is a great value device that does the basics well.
+
+If you are not someone that wants to tinker with their device then as mentioned above, this may not be the device for you. however at the price point it may be worth giving it a shot.
 
 ## Further Reading
 LocalDeck Documentation: https://blog.mylocalbytes.com/kb/2024-04-01/refs-localdeck/
