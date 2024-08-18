@@ -30,7 +30,13 @@ once connected to the network home assistant picks it up as a device and also th
 
 ## Home Assistant
 
-Localbytes recomends using their configurator addon which I have (so far) not used. However I have looked at how it works and it seems painful to have to recompile and reupload firmware to the board to change what a switch does. I will probably try it out at some point but I have resisted so far. I am not a fan of this approch but that is not to say its bad or wrong, I just dislike it.  I am not the one that wants to go another way. there has already been a handful of people proposing alternate firmwares and configuration options to remove the need for the addon.
+Localbytes recomends using their configurator addon which I have (so far) not used. However I have looked at how it works and it seems painful to have to recompile and reupload firmware to the board to change what a switch does.
+
+I will probably try it out at some point but I have resisted so far. I am not a fan of this approch but that is not to say its bad or wrong, I just dislike it.
+
+I am not the only one that wants to go another way. there has already been a handful of people proposing alternate firmwares and configuration options to remove the need for the addon.
+
+it does work out the box with esphome integration though and automations triggered by button presses are easy enough to set up without making it too complicated.
 
 ## Hidden Features
 
