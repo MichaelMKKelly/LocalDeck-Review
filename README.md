@@ -52,7 +52,7 @@ Above I mentioned that there are 2 officially supported ways to power the device
 
 ## Should I buy this device?
 
-I would say this product is designed for an intermediate and higher level home assistant user. It does seem to be in a bit of a strange place of tyring to cater to both those that want it to "just work" and those that want to tinker with it. and ends up somewhere in the middle.
+I would say this product is designed for an intermediate and higher level home assistant user. It does seem to be in a bit of a strange place of tyring to cater to both those that want it to "just work" and those that want to tinker with it. It ends up somewhere in the middle.
 
 If you have a working knowledge of home assistant and ESPHome devices then you will have no issues using this device. if you have a very basic home automation setup then this is not as plug and play as some other smart switches might be.
 
