@@ -121,3 +121,12 @@ potetnitally with a 45 degree adapter to make button pressing easier.
 include a 5v power supply in the backbox to power the unit.
 add a relay module to replace the switching that the light switch did before being replaced.
 if adding the relay module control directly to the onboard esp32 then hardcode one of the keys to switch it so that it works even
+
+## Further Reading
+LocalDeck Documentation: https://blog.mylocalbytes.com/kb/2024-04-01/refs-localdeck/
+
+Localbytes Website: https://www.mylocalbytes.com/
+
+Localbytes Blog: https://blog.mylocalbytes.com/
+
+Localbytes Forum: https://forum.mylocalbytes.com/
