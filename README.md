@@ -28,11 +28,13 @@ Once powered up it has a wifi AP and BLE options courtesy of ESPHomee to configu
 
 once connected to the network home assistant picks it up as a device and also the esphome addon allows for adoption without any issue.
 
-## The Home Assistant addon
+## Home Assistant
 
-TODO
+Localbytes recomends using their configurator addon which I have (so far) not used. However I have looked at how it works and it seems painful to have to recompile and reupload firmware to the board to change what a switch does. I will probably try it out at some point but I have resisted so far. I am not a fan of this approch but that is not to say its bad or wrong, I just dislike it.  I am not the one that wants to go another way. there has already been a handful of people proposing alternate firmwares and configuration options to remove the need for the addon.
 
 ## Hidden Features
+
+![image](https://github.com/user-attachments/assets/2862c8d9-fa29-478d-8efa-82bb2005ffa1)
 
 If the PCB is removed from the housing by taking out the 4 screws and the back side is made visable we get to see the ESP32 itself and a couple of hidden extra's on the board.
 
@@ -52,7 +54,7 @@ If you have a working knowledge of home assistant and ESPHome devices then you w
 
 When pressing a switch some LED's flicker. This appears to be a known problem and is being looked at for future versions of the PCB
 
-The side USB port when plugged in through the case doesnt allow for full insertion of a usb-c cable as the casing of the plug hits the case before it bottoms out. it plugs in and works but as a result of it not going all the back to the back of the connector it is a little loose and if getting moved on a desk is likely to become disconnected. I have tried a few USB-C cables and they all have the same issue so its not a connector tolorence issue however it could be a case toloraence issue with my specific case.
+The side USB port when plugged in through the case doesnt allow for full insertion of a usb-c cable as the casing of the plug hits the case before it bottoms out. it plugs in and works but as a result of it not going all the back to the back of the connector it is a little loose and if getting moved on a desk is likely to become disconnected. I have tried a few USB-C cables and they all have the same issue so its not a connector tolorence issue. after speaking with others on the LocalBytes forum it appears this is not limited to just me and its been comfirmed as a known issue that is being looked at for future versions
 
 The rear USB port when sitting on a surface is very close to the surface. This makes me nervous for potential shorts if put on something or if there is a liquid spill.
 
@@ -60,11 +62,14 @@ when using the mounting holes to mount it to a backbox the screws that it slots 
 
 Also when using the backbox mounting configuration the keyhole slots are great for simplicity but from a safety front they are a bit of an issue. someone can very easily slide it up and possibly access cables in the rear which may include live mains cables. I can see a child for example pushing it up and grabbing poking hands where they dont belong. perhaps some kind of retaining mechinism or switch to a backplate (more below)
 
+there appears to be isssues with wireless connection, when viewing logs via wireless it spams and disconnects. this issue is reduced by setting "power_save_mode: none" however for this you need to disable bluetooth which means departing from the default remote backage for the source. perhaps bluetooth should just be dropped (see bwlow)
+
+
 ## Suggestions for future revisions
 
 allow for full insetion of side USB port. (mentioned above but i feel its important to highlight again)
 
-look at making the case reversible so that the PCB can be mounted the other way around and have the USB connection on the other side. this would make it more practical for putting on either side of a desk setup.
+look at making the case reversible by putting a hole in the opposite corner so that the PCB can be mounted the other way around and have the USB connection on the other side. this would make it more practical for putting on either side of a desk setup.
 
 if a GPIO pin can be freed up then exposing that to allow for pysical addons would be great.
 A relay addon would be fantastic as when mounting on a standard backbox it can replace a light switch and also become a smart switch for the light switch that replaced it
@@ -73,6 +78,41 @@ the case tries to do everything. realistically perhaps changing the case to inst
 
 The 4 square holes on the back of the case used for the stand could potentionally be used to mount to a backplate?
 
+consider dropping bluetoooth, it causes issues as noted above and its not used for anything except as an optional way to perform inital setup then just sits there not helping anyone. realistically people using this product are going to be fine with wifi setup.
+
+when the device connects to home assistant the button sensors are in "unknown" station which annoys me in a way it probably shouldn't hopefully this can be fixed somehow in the future. I tried updating the firmware to add "publish_initial_state" to the button sensors but this did not work. so i ended up adding a script which is called "on_client_connected:" in the api section
+
+````
+script:
+  - id: init_keypad_sensors
+    mode: parallel
+    then:
+      - lambda: >
+          id(keypad_button_01).publish_state(false);
+          id(keypad_button_02).publish_state(false);
+          id(keypad_button_03).publish_state(false);
+          id(keypad_button_04).publish_state(false);
+          id(keypad_button_05).publish_state(false);
+          id(keypad_button_06).publish_state(false);
+          id(keypad_button_07).publish_state(false);
+          id(keypad_button_08).publish_state(false);
+          id(keypad_button_09).publish_state(false);
+          id(keypad_button_10).publish_state(false);
+          id(keypad_button_11).publish_state(false);
+          id(keypad_button_12).publish_state(false);
+          id(keypad_button_13).publish_state(false);
+          id(keypad_button_14).publish_state(false);
+          id(keypad_button_15).publish_state(false);
+          id(keypad_button_16).publish_state(false);  
+          id(keypad_button_17).publish_state(false);
+          id(keypad_button_18).publish_state(false);
+          id(keypad_button_19).publish_state(false);
+          id(keypad_button_20).publish_state(false);
+          id(keypad_button_21).publish_state(false);
+          id(keypad_button_22).publish_state(false);
+          id(keypad_button_23).publish_state(false);
+          id(keypad_button_24).publish_state(false);
+````
 
 ## My thoughts for using in a project
 
