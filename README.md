@@ -80,7 +80,7 @@ The 4 square holes on the back of the case used for the stand could potentionall
 
 consider dropping bluetoooth, it causes issues as noted above and its not used for anything except as an optional way to perform inital setup then just sits there not helping anyone. realistically people using this product are going to be fine with wifi setup.
 
-when the device connects to home assistant the button sensors are in "unknown" station which annoys me in a way it probably shouldn't hopefully this can be fixed somehow in the future. I tried updating the firmware to add "publish_initial_state" to the button sensors but this did not work. so i ended up adding a script which is called "on_client_connected:" in the api section
+when the device connects to home assistant the button sensors are in "unknown" station which annoys me in a way it probably shouldn't hopefully this can be fixed somehow in the future. I tried updating the firmware to add "publish_initial_state" to the button sensors but this did not work. so i ended up adding a script to publish an off state for all buttons which is called "on_client_connected:" in the api section
 
 ````
 script:
@@ -113,6 +113,8 @@ script:
           id(keypad_button_23).publish_state(false);
           id(keypad_button_24).publish_state(false);
 ````
+
+It's not a great solution but it works for now
 
 ## My thoughts for using in a project
 
