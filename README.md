@@ -8,21 +8,23 @@ Disclaimer:
 
 This review is one mans opinion but I can only offer my side
 
-Parts of this review may come across negative howver in general I do like the device
+Parts of this review may come across negative howver in general I do like the device and think that LocalBytes is a good company that can be trusted.
 
 ## Who is LocalBtes and why did I buy?
 
 Theey are a small UK company with a small range of products that I ran into whilst looking at various smart plugs and they seemed great value for money so decided to give them a go and when The products turned out to be of a reasnable quality I decided to jump in to their new localdeck product as I have some half ideas on things i might want to do with it.
 
-I am a firm believer in judgeing a company by what it does when things go wrong and so far this has been a good 
+I am a firm believer in judgeing a company by what it does when things go wrong and so far this has been a good as we will see below
 
 ## Getting the Product
 
 As with any new product there are teething issues and this was no different. there was a month delay in shipping as there was an issue with the production run of the PCB's however this has been publically addressed and will be resolved.
 
-When I first received the product the faceplatee was cracked. I beleive this happened in transit. However upon emailing a photo to localbytes they immediately shipped a replacement which arrived promptly and had no issues.
+When I first received the product the faceplate was cracked. I beleive this happened in transit. However upon emailing a photo to localbytes they immediately shipped a replacement which arrived promptly and had no issues.
 
-A 2nd issue was that one of the keys did not work out the box. this turned out to be a bent pin on the switch once bent back into place it worked without further issue but may have been weakened by this happening. Again - I dont think localbytes is directly to blame for this issue however perhaps they can update assembly QA prodeedure to prevent it happening to others in future.
+A second issue was that one of the keys did not work out the box. this turned out to be a bent pin on the switch once bent back into place it worked without further issue but may have been weakened by this happening. Again - I dont think localbytes is directly to blame for this issue however perhaps they can update assembly QA prodeedure to prevent it happening to others in future.
+
+A third issue cropped up during testing, there was some instability and as part of testing I discovered that the power supply included in the bundle was only putting out 4.4v which is definetly below tolorence. Upon emailing LocalBytes they again immediately shipped a replacement which I am waiting to arrive.
 
 ## The LocalDeck itself
 
@@ -146,7 +148,7 @@ does it have problems? Again I have to say: yes
 
 getting the first run of hardware for a device naturally comes with some risks but if you are someone that tinkers with the hardware and can adapt to the situation then it like other things from the LocalBytes lineup is a great value device that does the basics well.
 
-If you are not someone that wants to tinker with their device then as mentioned above, this may not be the device for you. however at the price point it may be worth giving it a shot.
+If you are not someone that wants to tinker with their device then as mentioned above, this may not be the device for you. however at the price point if you want to put a little effort in then it may be worth giving it a shot.
 
 ## Further Reading
 LocalDeck Documentation: https://blog.mylocalbytes.com/kb/2024-04-01/refs-localdeck/
