@@ -163,3 +163,7 @@ Localbytes Website: https://www.mylocalbytes.com/
 Localbytes Blog: https://blog.mylocalbytes.com/
 
 Localbytes Forum: https://forum.mylocalbytes.com/
+
+A Blueprint to use without the addon from nwithan8 - https://community.home-assistant.io/t/localdeck-24-button-keypad-blueprint/758230
+
+A Custom Firmware from araa47 that uses HA's websocket API - https://github.com/araa47/local-deck-ws/
