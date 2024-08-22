@@ -48,7 +48,7 @@ it does work out the box with esphome integration though and automations trigger
 
 Perhaps it is not fair to voice an opinion when not using it in the "intended" way? Or is the intended way to tinker?
 
-## Hidden Features
+## Further Testing and Hidden Features
 
 ![image](https://github.com/user-attachments/assets/2862c8d9-fa29-478d-8efa-82bb2005ffa1)
 
@@ -59,6 +59,8 @@ SW1 - this is labled "Boot" and is a standard ESP32 debug board switch
 J1 - unpopulated 2 pin header for 5v and GND
 
 Above I mentioned that there are 2 officially supported ways to power the device however with J1 it would be very easy to add your own 5v power supply to the device and soldering directly to the throughhole connections.
+
+The bundled supply is rated at 3A and theoretically the max of the compnents driving all LEDS to the max could get within striking distancce of that however in testing with all LEDS on it is not that far above an amp 1.15-1.2 was about the max that I saw. It can definetly cause problems if you use a supply with a 1A limit so ensure you use a correctly rated supply if not using the stock one. although if you opted to limit or disable the LEDS then you could probably run it on a 1A supply or maybe lees but do so at your own risk. for most people sticking with the stock supply is likely the best option.
 
 ## Should I buy this device?
 
@@ -138,7 +140,7 @@ using the backbox mount to replace a lightswitch.
 potetnitally with a 45 degree adapter to make button pressing easier.
 include a 5v power supply in the backbox to power the unit.
 add a relay module to replace the switching that the light switch did before being replaced.
-if adding the relay module control directly to the onboard esp32 then hardcode one of the keys to switch it so that it works even
+if I could add the relay module control directly to the onboard esp32 then hardcode one of the keys to switch it so that it works even if connection is lost. However I dont think this is possible with the current hardware revision
 
 ## Conclusion and final thoughts
 
