@@ -10,7 +10,7 @@ This review is one mans opinion but I can only offer my side
 
 Parts of this review may come across negative however in general I do like the device and think that LocalBytes is a good company that can be trusted.
 
-## Who is LocalBtes and why did I buy?
+## Who is LocalBytes and why did I buy?
 
 Theey are a small UK company with a small range of products that I ran into whilst looking at various smart plugs and they seemed great value for money so decided to give them a go and when The products turned out to be of a reasnable quality I decided to jump in to their new localdeck product as I have some half ideas on things i might want to do with it.
 
