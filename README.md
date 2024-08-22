@@ -4,6 +4,9 @@ A review of the new localdeck from localbytes
 
 This can also serve as feedback for localbytes for possible future versions/products
 
+![image](https://github.com/user-attachments/assets/97cbbc90-2978-4f27-ac89-4e177e82145b)
+
+
 Disclaimer:
 
 This review is one man's opinion but I can only offer my side
