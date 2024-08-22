@@ -8,7 +8,7 @@ Disclaimer:
 
 This review is one mans opinion but I can only offer my side
 
-Parts of this review may come across negative howver in general I do like the device and think that LocalBytes is a good company that can be trusted.
+Parts of this review may come across negative however in general I do like the device and think that LocalBytes is a good company that can be trusted.
 
 ## Who is LocalBtes and why did I buy?
 
