@@ -76,7 +76,7 @@ The rear USB port when sitting on a surface is very close to the surface. This m
 
 when using the mounting holes to mount it to a backbox the screws that it slots onto are very close to the pins for LED08 and LED11. I am nervous that screws being a little long could result in shorts. a bit of kaptop tape on the board in these areas is probably the easy solution
 
-Also when using the backbox mounting configuration the keyhole slots are great for simplicity but from a safety front they are a bit of an issue. someone can very easily slide it up and possibly access cables in the rear which may include live mains cables. I can see a child for example pushing it up and grabbing poking hands where they dont belong. perhaps some kind of retaining mechinism or switch to a backplate (more below)
+Also when using the backbox mounting configuration the keyhole slots are great for simplicity but from a safety front they are a bit of an issue. someone can very easily slide it up and possibly access cables in the rear which may include live mains cables. I can see a child for example pushing it up and grabbing or poking hands where they dont belong. perhaps some kind of retaining mechinism or switch to a backplate (more below)
 
 there appears to be isssues with wireless connection, when viewing logs via wireless it spams and disconnects. this issue is reduced by setting "power_save_mode: none" however for this you need to disable bluetooth which means departing from the default remote backage for the source. perhaps bluetooth should just be dropped (see bwlow)
 
