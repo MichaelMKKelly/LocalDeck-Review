@@ -24,7 +24,7 @@ When I first received the product the faceplate was cracked. I beleive this happ
 
 A second issue was that one of the keys did not work out the box. this turned out to be a bent pin on the switch once bent back into place it worked without further issue but may have been weakened by this happening. Again - I dont think localbytes is directly to blame for this issue however perhaps they can update assembly QA prodeedure to prevent it happening to others in the future.
 
-A third issue cropped up during testing, there was some instability and as part of testing I discovered that the power supply included in the bundle was only putting out 4.4v which is definetly below tolorence. Upon emailing LocalBytes they again immediately shipped a replacement which prompty arrived and was up to tolorence. The supply itself appears to be a rebadged cheap chinese supply so I am sure they get a few duff ones and its not their fault
+A third issue cropped up during testing, there was some instability and as part of testing I discovered that the power supply included in the bundle was only putting out 4.4v which is definetly below tolorence. Upon emailing LocalBytes they again immediately shipped a replacement which prompty arrived and was up to tolorence. The supply itself appears to be a rebadged cheap chinese supply so I am sure they get a few duff ones and its not their fault.
 
 ## The LocalDeck itself
 
