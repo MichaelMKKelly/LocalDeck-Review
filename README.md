@@ -12,7 +12,7 @@ Parts of this review may come across negative however in general I do like the d
 
 ## Who is LocalBytes and why did I buy?
 
-Theey are a small UK company with a small range of products that I ran into whilst looking at various smart plugs and they seemed great value for money so decided to give them a go and when The products turned out to be of a reasnable quality I decided to jump in to their new localdeck product as I have some half ideas on things i might want to do with it.
+They are a small UK company with a small range of products that I ran into whilst looking at various smart plugs and they seemed great value for money so decided to give them a go and when The products turned out to be of a reasnable quality I decided to jump in to their new localdeck product as I have some half ideas on things i might want to do with it.
 
 I am a firm believer in judgeing a company by what it does when things go wrong and so far this has been an extremely good showing from LocalBytes as shown below
 
