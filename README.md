@@ -151,6 +151,9 @@ getting the first run of hardware for a device naturally comes with some risks b
 If you are not someone that wants to tinker with their device then as mentioned above, this may not be the device for you. however at the price point if you want to put a little effort in then it may be worth giving it a shot.
 
 ## Further Reading
+
+LocalDeck Product Page: https://www.mylocalbytes.com/products/localdeck-bundle
+
 LocalDeck Documentation: https://blog.mylocalbytes.com/kb/2024-04-01/refs-localdeck/
 
 Localbytes Website: https://www.mylocalbytes.com/
