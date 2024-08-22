@@ -14,17 +14,17 @@ Parts of this review may come across negative howver in general I do like the de
 
 Theey are a small UK company with a small range of products that I ran into whilst looking at various smart plugs and they seemed great value for money so decided to give them a go and when The products turned out to be of a reasnable quality I decided to jump in to their new localdeck product as I have some half ideas on things i might want to do with it.
 
-I am a firm believer in judgeing a company by what it does when things go wrong and so far this has been a good as we will see below
+I am a firm believer in judgeing a company by what it does when things go wrong and so far this has been an extremely good showing from LocalBytes as shown below
 
 ## Getting the Product
 
-As with any new product there are teething issues and this was no different. there was a month delay in shipping as there was an issue with the production run of the PCB's however this has been publically addressed and will be resolved.
+As with any new product there are teething issues and this was no different. there was a month delay in shipping as there was an issue with the production run of the PCB's however this has been publically addressed and will be resolved for future runs.
 
-When I first received the product the faceplate was cracked. I beleive this happened in transit. However upon emailing a photo to localbytes they immediately shipped a replacement which arrived promptly and had no issues.
+When I first received the product the faceplate was cracked. I beleive this happened in transit. However upon emailing a photo to localbytes they immediately shipped a replacement which arrived promptly and had no issues. from some comments on the forums it seems I was not the only one that had this issue and they are looking to resolve this in the future.
 
-A second issue was that one of the keys did not work out the box. this turned out to be a bent pin on the switch once bent back into place it worked without further issue but may have been weakened by this happening. Again - I dont think localbytes is directly to blame for this issue however perhaps they can update assembly QA prodeedure to prevent it happening to others in future.
+A second issue was that one of the keys did not work out the box. this turned out to be a bent pin on the switch once bent back into place it worked without further issue but may have been weakened by this happening. Again - I dont think localbytes is directly to blame for this issue however perhaps they can update assembly QA prodeedure to prevent it happening to others in the future.
 
-A third issue cropped up during testing, there was some instability and as part of testing I discovered that the power supply included in the bundle was only putting out 4.4v which is definetly below tolorence. Upon emailing LocalBytes they again immediately shipped a replacement which I am waiting to arrive.
+A third issue cropped up during testing, there was some instability and as part of testing I discovered that the power supply included in the bundle was only putting out 4.4v which is definetly below tolorence. Upon emailing LocalBytes they again immediately shipped a replacement which prompty arrived and was up to tolorence. The supply itself appears to be a rebadged cheap chinese supply so I am sure they get a few duff ones and its not their fault
 
 ## The LocalDeck itself
 
