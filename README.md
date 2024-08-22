@@ -1,4 +1,4 @@
-# A Review of the LocalDeck - IMCOMPLETE
+# A Review of the LocalDeck - Some Issues but a good produut from a good company
 
 A review of the new localdeck from localbytes
 
