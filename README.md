@@ -46,7 +46,7 @@ I am not the only one that wants to go another way. there has already been a han
 
 it does work out the box with esphome integration though and automations triggered by button presses are easy enough to set up without making it too complicated.
 
-Perhaps it is not fair to voice an opinion when not using it in the "intended" way?
+Perhaps it is not fair to voice an opinion when not using it in the "intended" way? Or is the intended way to tinker?
 
 ## Hidden Features
 
