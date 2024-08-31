@@ -162,11 +162,11 @@ LocalDeck Product Page: https://www.mylocalbytes.com/products/localdeck-bundle
 
 LocalDeck Documentation: https://blog.mylocalbytes.com/kb/2024-04-01/refs-localdeck/
 
-Localbytes Website: https://www.mylocalbytes.com/
+LocalBytes Website: https://www.mylocalbytes.com/
 
-Localbytes Blog: https://blog.mylocalbytes.com/
+LocalBytes Blog: https://blog.mylocalbytes.com/
 
-Localbytes Forum: https://forum.mylocalbytes.com/
+LocalBytes Forum: https://forum.mylocalbytes.com/
 
 A Blueprint to use without the addon from nwithan8 - https://community.home-assistant.io/t/localdeck-24-button-keypad-blueprint/758230
 
