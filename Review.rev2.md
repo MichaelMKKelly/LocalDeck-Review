@@ -2,7 +2,9 @@
 
 for my orginal review and feedback please see here - https://github.com/MichaelMKKelly/LocalDeck-Review/blob/main/Review.rev1.md
 
-This review will be focused on the Rev2 and my experience with it.
+This review will be focused on the Rev2 and my experience with it during unboxing and onboarding.
+
+NB: I have not used the device for any length of time as of yet. but will add further information if I find anything else worth noting.
 
 ## Reasons for getting
 
