@@ -61,7 +61,7 @@ This is not an easy problem to solve and is probably more my paranoia than a rea
 
 There are probably some other changes however there was nothing that I really noted.
 
-## actually building the unit up
+## Actually building the unit up
 
 I felt that snapping the front panel into place was a bit more difficult than I remember it being with a REV 1 but as this is not a side by side comparison so its hard to tell.
 
