@@ -129,7 +129,11 @@ As with my first LocalDeck, I do not plan to use the Configurator Tool as recomp
 
 However in fairness I am probably an "advanced user" and I am able to replicate the functionality of leds changing to follow states and whatnot easily with an automation.
 
-I feel blueprints that help achieve this would be a better option as it stops the need for users to use the builder tool and adopt the deck into it. However, that's just my opinion and I am also absolutely sure people are happy with the current "designed method of use".
+I feel blueprints that help achieve this would be a better option as it stops the need for users to use the builder tool and adopt the deck into it.
+
+Another option might be to create a "virtual integration" for Home Assistant which sits on top of and depends on the ESPHome integration but can add extra configuration.
+
+However, that's just my opinion and I am also absolutely sure people are happy with the current "designed method of use".
 
 At this point there is not much functional difference between Rev 1 and Rev 2.
 
@@ -138,6 +142,7 @@ I don't see why there will be any issues setting it up to work the way I want it
 I intend to use it with a [45 dregree backbox](https://www.amazon.co.uk/dp/B09QMN3ZGJ) instead of the stock stand brackets as it is more solid and provides an angle that works better for me. The keyhole screws make this easy.
 
 It sits under my monitor nicely
+
 ![image](https://github.com/user-attachments/assets/34b7ce3e-89e7-46ee-852e-66bc67b22c11)
 
 It will look even better when I have the keycaps sorted out and put in place.
