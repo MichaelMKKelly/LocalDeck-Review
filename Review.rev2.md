@@ -8,7 +8,7 @@ This review will be focused on the Rev2 and my experience with it.
 
 I have been fairly happy with my [orginal localdeck setup](https://github.com/MichaelMKKelly/LocalDeck-Light-Switch-Mount)
 
-I was considering getting another for my Desk and knew that there a hardware revision coming soon so I was looking out for it.
+I was considering getting another for my Desk and knew that there was a hardware revision coming soon so I was looking out for it.
 
 then i got an email
 
@@ -19,15 +19,15 @@ We’ve spent time refining the circuitry to deliver an even smoother, more reli
 ```
 So I decided to buy one for use at my desk and gives me a reason to examine the revisions made to the product
 
-## Inital Unboxing and examination
+## Initial Unboxing and examination
 
 Well packed as come to expect from LocalBytes.
 
 based on the experience the first time the first things i checked were:
 - Was the faceplate intact
-- did the PSU otuput an expected voltage
+- did the PSU output an expected voltage
 
-The faceplate initally looked okay but more on this later
+The faceplate initially looked okay but more on this later
 
 the included PSU showed 5.2v on usb test meter so that looks good too
 
@@ -37,15 +37,13 @@ The USB port on the side no longer has the retention issue that REV 1 did becaus
 
 the read of the unit now has a small hole that allows you to "paperclip" the boot button in case of major firmware issue which is a good change.
 
-one of the T8 screws holding the board in place was definetly harder to remove than the others but this is likely a minor build process tolorence issue and didnt cause a major problem
+one of the T8 screws holding the board in place was definitely harder to remove than the others but this is likely a minor build process tolerance issue and did not cause a major problem
 
 then we get to look at the back of the board itself
 
 ![2025-05-15-15-49-12-238](https://github.com/user-attachments/assets/664a51af-bbdd-49c5-96a4-dbd087060c72)
 
-The major differences are that each LED now appears to have a Capacitor attached which I imagine is to solve the flickering issue of the REV 1.
-
-also J1 has now changed from previously being a 2 pin throughhole header it is now a 5 pin header but only 2 are throughhole which are the power and GND, same as REV 1.
+The major differences are that each LED now appears to have a capacitor attached which I imagine is to solve the flickering issue of the REV 1, and also J1 has now changed from previously being a 2 pin throughhole header it is now a 5 pin header but only 2 are throughhole which are the power and GND, same as REV 1.
 
 ![image](https://github.com/user-attachments/assets/c16ab45e-7858-42fa-889d-e2c43a32aafe)
 
@@ -54,35 +52,35 @@ the new additions are just pads most likely used for factory programming with po
 - D+ - This is a USB Data pin
 - 9 - This is connected to the boot switch pin which is pulled low by the boot button
 
-I dont really thing these have any useful purpsoe to the end user and are designed to make factory flashing easier
+I don't really think these have any useful purpose to the end user and are designed to make factory flashing easier
 
-There is still the issue that when using the keyhole connectors to mount that the screws may short pins on the rear of the board.
+There is still the issue that when using the keyhole connectors to mount the device the screws may short pins on the rear of the board.
 This is not an easy problem to solve and is probably more my paranoia than a real problem but I opted to put a couple of pieces of electrical tape in place to be sure
 
 ![image](https://github.com/user-attachments/assets/9b4ab4fc-3dea-4f4b-9a3c-c8c147a18a69)
 
-There is probably some other changes however there was nothing that I really noted.
+There are probably some other changes however there was nothing that I really noted.
 
 ## actually building the unit up
 
-I felt that snapping the front panel into place was a bit more difficult than I remember it being with a REV 1 but as this is not a side by side comparason its hard to tell.
+I felt that snapping the front panel into place was a bit more difficult than I remember it being with a REV 1 but as this is not a side by side comparison so its hard to tell.
 
 I did notice at this stage that one of the clips appeared to be broken off the frontplate.
 
 ![image](https://github.com/user-attachments/assets/3ec9ecd3-ad0a-4a3a-9bb8-2995e52042f4)
 
-I am not sure if it came this waay or it was my handling of it whilst trying to snap it in place then lost the piece on my desk somewhere. I am happy to give benefit of the doubt on this one that it was my fault...
-however the fact that I could have accidently without noticing may be its own problem.
+I am not sure if it came this way or it was my handling of it whilst trying to snap it in place then lost the piece on my desk somewhere. I am happy to give the benefit of the doubt on this one that it was my fault...
+however the fact that I could have accidentally without noticing may be its own problem.
 
-it does not really cause any issues as the other hold it in place fine and it doesnt overally bother me by itself.
+it does not really cause any issues as the others hold it in place fine and it doesn't overly bother me by itself.
 
-the frontplate however does seem to have some other inperfections possibly from the manufacturing process. whilst the camera flash here does make it look worse than it is in normal light there are some noticable issues.
+the frontplate however does seem to have some other imperfections possibly from the manufacturing process. whilst the camera flash here does make it look worse than it is in normal light there are some noticeable issues.
 
 ![image](https://github.com/user-attachments/assets/c1ac8721-0b44-4014-b72b-5edc47f99074)
 ![image](https://github.com/user-attachments/assets/95428a1f-089f-40cc-9c33-214cb54d7379)
 ![image](https://github.com/user-attachments/assets/017ea5b1-a034-4c56-b379-3eafaff65e7a)
 
-although i dont plan to use them i did try the included brackets to see how they fit and noted that the larger of the brcket ends is too wide to hook into the casing (maybe i am doing something wrong?)
+Although I don't plan to use them I did try the included brackets to see how they fit and noted that the larger of the bracket ends is too wide to hook into the casing (maybe i am doing something wrong?)
 
 smaller
 
@@ -103,21 +101,21 @@ If I was to guess I would say that something went wrong with the factory firmwar
 This is my story...
 
 ### Attempt to onboard using wifi
-I connected a device to its breoaded AP which connected however i could not get any meaningful responce from the UI that should be accessible at 192.168.4.1
-This was marginly annoying but after a few minutes I opted to move on.
+I connected a device to its broadcast AP which connected however i could not get any meaningful response from the UI that should be accessible at 192.168.4.1
+This was marginally annoying but after a few minutes I opted to move on.
 
 ### attempt to onboard using bluetooth
-I attempted this first with Android Phone with no sucsess. just tried for a while until timed out.
+I attempted this first with an Android Phone with no success. just tried for a while until timed out.
 
-Then i tried using Windows Desktop with bluetooth adaptor. This did seem to work eventually but took a while. The device appeared on network and could be added to HA, but it had no entities in HA and it turned out that it did not want to stay connected to my network. on reboot it connected then fell off straight away... very strange.
+Then I tried using Windows Desktop with a bluetooth adapter. This did seem to work eventually but took a while. The device appeared on the network and could be added to HA, but it had no entities in HA and it turned out that it did not want to stay connected to my network. on reboot it connected then fell off straight away... very strange.
 
-the ESPHome Builder did see it briefly and i was able to compile a firmware but not write as it dropped off so i took the firmware as a file and flashed it via USB using the ESPHome web tool. this still had the disconnecting problem.
+The ESPHome Builder did see it briefly and I was able to compile a firmware but not write as it dropped off so I took the firmware as a file and flashed it via USB using the ESPHome web tool. This still had the disconnecting problem.
 
 ### treat it like a fresh dev board and build from there.
 
-At this point I deleted all instances of the device from HA and used the ESPHome web tool and prepare it as a brand new blank and basic ESP32 device and connected it to my wifi.
+At this point I deleted all instances of the device from HA and used the ESPHome web tool and prepared it as a brand new blank and basic ESP32 device and connected it to my wifi.
 
-This seemed to have the device stable on my network so i added it to home assistant and adopted it into ESPHome addon.
+This seemed to have the device stable on my network so I added it to home assistant and adapted it into ESPHome addon.
 
 I was then able to add the YAML to get the device working in the stock manner I expected.
 
@@ -125,17 +123,17 @@ I do not totally understand what went wrong and where but in the end I got there
 
 ## Using the device
 
-As with my first LocalDeck, I do not plan to use the Configurator Tool as recompiling and flashing the firmware for a configuraation change seems silly to me...
+As with my first LocalDeck, I do not plan to use the Configurator Tool as recompiling and flashing the firmware for a configuration change seems silly to me...
 
-However in fairness I am probably an "advanced user" and I am able replicate the functionality of leds changing to follow states and whatnot easily with an automation.
+However in fairness I am probably an "advanced user" and I am able to replicate the functionality of leds changing to follow states and whatnot easily with an automation.
 
-I feel blueprints that help achive this would be a better option as it stops the need for users to use the builder tool and adopt the deck into it. however thats just my opinion and I am also absolutly sure people are happy with the current "designed method of use".
+I feel blueprints that help achieve this would be a better option as it stops the need for users to use the builder tool and adopt the deck into it. However, that's just my opinion and I am also absolutely sure people are happy with the current "designed method of use".
 
 At this point there is not much functional difference between Rev 1 and Rev 2.
 
-I dont see why there will be any issues setting it up to work the way I want it
+I don't see why there will be any issues setting it up to work the way I want it
 
-I intend to use it with a [45 dregree backbox](https://www.amazon.co.uk/dp/B09QMN3ZGJ) instead of the stock stand brackets as it is more solid and providers an angle that works better for me. the keyhole screws make this easy.
+I intend to use it with a [45 dregree backbox](https://www.amazon.co.uk/dp/B09QMN3ZGJ) instead of the stock stand brackets as it is more solid and provides an angle that works better for me. The keyhole screws make this easy.
 
 It sits under my monitor nicely
 ![image](https://github.com/user-attachments/assets/34b7ce3e-89e7-46ee-852e-66bc67b22c11)
@@ -144,7 +142,6 @@ It will look even better when I have the keycaps sorted out and put in place.
 
 
 ### Final Conclusions
-Despite the problems that I have had, I Do like the LocalDeck and this hardware revision does defienetly tidy up some of the issues from the orginal release.
+Despite the problems that I have had, I do like the LocalDeck and this hardware revision does definitely tidy up some of the issues from the original release.
 
-It would be nice to see a revision that adds an IO expander to control the switches which would then in turn free up GPIO pins which could be wired to a pinheader which would allow for customisation of the device to add extra functioanlity. perhaps even a "Grove Port" to expose i2c which would allow for a variaty of of the shelf accessories to be added.
-
+It would be nice to see a revision that adds an IO expander to control the switches which would then in turn free up GPIO pins which could be wired to a pinheader which would allow for customisation of the device to add extra functionality. Perhaps even a "Grove Port" to expose i2c which would allow for a variety of off the shelf accessories to be added.
