@@ -113,6 +113,8 @@ Then i tried using Windows Desktop with bluetooth adaptor. This did seem to work
 
 the ESPHome Builder did see it briefly and i was able to compile a firmware but not write as it dropped off so i took the firmware as a file and flashed it via USB using the ESPHome web tool. this still had the disconnecting problem.
 
+### treat it like a fresh dev board and build from there.
+
 At this point I deleted all instances of the device from HA and used the ESPHome web tool and prepare it as a brand new blank and basic ESP32 device and connected it to my wifi.
 
 This seemed to have the device stable on my network so i added it to home assistant and adopted it into ESPHome addon.
