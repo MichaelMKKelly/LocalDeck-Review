@@ -4,6 +4,8 @@ A review of the new localdeck from localbytes
 
 This can also serve as feedback for localbytes for possible future versions/products
 
+NB: For followup review and feedback for hardware Rev 2 there is a new page [here](https://github.com/MichaelMKKelly/LocalDeck-Review/blob/main/Review.rev2.md)
+
 ![image](https://github.com/user-attachments/assets/97cbbc90-2978-4f27-ac89-4e177e82145b)
 
 Product Page - https://www.mylocalbytes.com/products/localdeck
