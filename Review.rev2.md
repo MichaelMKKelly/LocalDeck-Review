@@ -4,6 +4,21 @@ for my orginal review and feedback please see here - https://github.com/MichaelM
 
 This review will be focused on the Rev2 and my experience with it.
 
+## Reasons for getting
+
+I have been fairly happy with my [orginal localdeck setup](https://github.com/MichaelMKKelly/LocalDeck-Light-Switch-Mount)
+
+I was considering getting another for my Desk and knew that there a hardware revision coming soon so I was looking out for it.
+
+then i got an email
+
+```
+Our previously sold-out flagship has finally made its grand return — and it’s better than ever.
+
+We’ve spent time refining the circuitry to deliver an even smoother, more reliable experience. Whether you're expanding your smart home or buying for the first time, now’s the perfect moment to grab your new LocalDeck.
+```
+So I decided to buy one for use at my desk and gives me a reason to examine the revisions made to the product
+
 ## Inital Unboxing and examination
 
 Well packed as come to expect from LocalBytes.
@@ -80,3 +95,54 @@ bigger
 you can see that the bigger is slightly too big
 
 ## Onboarding of the unit into Home Assistant
+
+This did not go well for reasons that are hard to tell...
+
+If I was to guess I would say that something went wrong with the factory firmware flash and something was corrupted somewhere.
+
+This is my story...
+
+### Attempt to onboard using wifi
+I connected a device to its breoaded AP which connected however i could not get any meaningful responce from the UI that should be accessible at 192.168.4.1
+This was marginly annoying but after a few minutes I opted to move on.
+
+### attempt to onboard using bluetooth
+I attempted this first with Android Phone with no sucsess. just tried for a while until timed out.
+
+Then i tried using Windows Desktop with bluetooth adaptor. This did seem to work eventually but took a while. The device appeared on network and could be added to HA, but it had no entities in HA and it turned out that it did not want to stay connected to my network. on reboot it connected then fell off straight away... very strange.
+
+the ESPHome Builder did see it briefly and i was able to compile a firmware but not write as it dropped off so i took the firmware as a file and flashed it via USB using the ESPHome web tool. this still had the disconnecting problem.
+
+At this point I deleted all instances of the device from HA and used the ESPHome web tool and prepare it as a brand new blank and basic ESP32 device and connected it to my wifi.
+
+This seemed to have the device stable on my network so i added it to home assistant and adopted it into ESPHome addon.
+
+I was then able to add the YAML to get the device working in the stock manner I expected.
+
+I do not totally understand what went wrong and where but in the end I got there...
+
+## Using the device
+
+As with my first LocalDeck, I do not plan to use the Configurator Tool as recompiling and flashing the firmware for a configuraation change seems silly to me...
+
+However in fairness I am probably an "advanced user" and I am able replicate the functionality of leds changing to follow states and whatnot easily with an automation.
+
+I feel blueprints that help achive this would be a better option as it stops the need for users to use the builder tool and adopt the deck into it. however thats just my opinion and I am also absolutly sure people are happy with the current "designed method of use".
+
+At this point there is not much functional difference between Rev 1 and Rev 2.
+
+I dont see why there will be any issues setting it up to work the way I want it
+
+I intend to use it with a [45 dregree backbox](https://www.amazon.co.uk/dp/B09QMN3ZGJ) instead of the stock stand brackets as it is more solid and providers an angle that works better for me. the keyhole screws make this easy.
+
+It sits under my monitor nicely
+![image](https://github.com/user-attachments/assets/34b7ce3e-89e7-46ee-852e-66bc67b22c11)
+
+It will look even better when I have the keycaps sorted out and put in place.
+
+
+### Final Conclusions
+Despite the problems that I have had, I Do like the LocalDeck and this hardware revision does defienetly tidy up some of the issues from the orginal release.
+
+It would be nice to see a revision that adds an IO expander to control the switches which would then in turn free up GPIO pins which could be wired to a pinheader which would allow for customisation of the device to add extra functioanlity. perhaps even a "Grove Port" to expose i2c which would allow for a variaty of of the shelf accessories to be added.
+
